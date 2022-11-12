@@ -1,0 +1,66 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page30907834.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^ip$ page31079475.html [NC]
+RewriteRule ^ip/$ page31079475.html [NC]
+
+RewriteRule ^ilegal$ page30907834.html [NC]
+RewriteRule ^ilegal/$ page30907834.html [NC]
+
+RewriteRule ^blog$ page31132128.html [NC]
+RewriteRule ^blog/$ page31132128.html [NC]
+
+RewriteRule ^privacy$ page31160585.html [NC]
+RewriteRule ^privacy/$ page31160585.html [NC]
+
+RewriteRule ^sample$ page31140966.html [NC]
+RewriteRule ^sample/$ page31140966.html [NC]
+
+RewriteRule ^business_structuring$ page31129254.html [NC]
+RewriteRule ^business_structuring/$ page31129254.html [NC]
+
+RewriteRule ^footer$ page30934710.html [NC]
+RewriteRule ^footer/$ page30934710.html [NC]
+
+RewriteRule ^meeting$ page31139393.html [NC]
+RewriteRule ^meeting/$ page31139393.html [NC]
+
+RewriteRule ^mergersacquisitions$ page31085197.html [NC]
+RewriteRule ^mergersacquisitions/$ page31085197.html [NC]
+
+RewriteRule ^gdrp$ page30961676.html [NC]
+RewriteRule ^gdrp/$ page30961676.html [NC]
+
+RewriteRule ^header$ page30976561.html [NC]
+RewriteRule ^header/$ page30976561.html [NC]
+
+RewriteRule ^fns$ page31141188.html [NC]
+RewriteRule ^fns/$ page31141188.html [NC]
+
+RewriteRule ^fintech_and_e-commerce$ page31080212.html [NC]
+RewriteRule ^fintech_and_e-commerce/$ page31080212.html [NC]
+
+RewriteRule ^cryptocurrency$ page31118387.html [NC]
+RewriteRule ^cryptocurrency/$ page31118387.html [NC]
+
+RewriteRule ^gamedev$ page31412879.html [NC]
+RewriteRule ^gamedev/$ page31412879.html [NC]
+
+RewriteRule ^relocate$ page31419455.html [NC]
+RewriteRule ^relocate/$ page31419455.html [NC]
+
+RewriteRule ^coronavirus$ page31162752.html [NC]
+RewriteRule ^coronavirus/$ page31162752.html [NC]
+
+RewriteRule ^stamp$ page31163087.html [NC]
+RewriteRule ^stamp/$ page31163087.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6537-6633-4566-a239-623431376536/favicon_2.ico [R=302,L]
+

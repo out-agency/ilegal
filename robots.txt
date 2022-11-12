@@ -1,0 +1,21 @@
+User-Agent: *
+Disallow: /page30934710.html
+Disallow: /footer
+Disallow: /page30976561.html
+Disallow: /header
+Disallow: /page31481000.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+
+
+Sitemap: http://i-legal.tilda.ws/sitemap.xml
+Sitemap: http://i-legal.tilda.ws/sitemap-feeds.xml
+Host: i-legal.tilda.ws
